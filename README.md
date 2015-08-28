@@ -10,7 +10,7 @@
 
 **Download : [Monacoin-exp-0.10.2.2_Lyra2REv2-preview.zip](https://github.com/monacoinproject/Monacoin-exp/archive/0.10.2.2_Lyra2REv2-preview.zip)**
 
-win32版のzip内には下記で説明するテスト例のバッチファイルも入っています。
+win32版には下記で説明するテスト例のバッチファイルも入っています。
 
 ##テストネット
 引数 -testnet を指定した場合、テストネットに接続します。  
