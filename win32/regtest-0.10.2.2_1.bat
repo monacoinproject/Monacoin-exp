@@ -1,0 +1,1 @@
+monacoin-qt_0.10.2.2-Lyra2REv2-pre.exe -datadir=testdir_0.10.2.2_1 -regtest

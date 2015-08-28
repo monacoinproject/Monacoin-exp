@@ -1,0 +1,1 @@
+monacoin-qt_0.8.7.1.exe -datadir=testdir_0.8.7.1 -testnet
