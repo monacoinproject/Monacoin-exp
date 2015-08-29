@@ -1,7 +1,7 @@
 #Monacoin 0.10.2.2 Lyra2REv2 プレビュー版
 - - -
 このプレビュー版はアルゴリズムの切り替えをテストしたい人向けのもので、Lyra2REv2の採用を決定するものではありません。  
-上記のバイナリは[こちら  ](https://github.com/monacoinproject/monacoin/tree/pending-0.10.2.2-Lyra2REv2)のソースをビルドしたものになります。
+上記のバイナリは[こちら](https://github.com/monacoinproject/monacoin/tree/pending-0.10.2.2-Lyra2REv2)のソースをビルドしたものになります。
 
 **このプレビュー版は開発中のもので、予期せぬ不具合が発生する可能性があります。**  
 必ず -testnet、-regtest のどちらかの引数を指定して起動してください。  
@@ -10,7 +10,8 @@
 
 **Download : [Monacoin-exp-0.10.2.2_Lyra2REv2-preview.zip](https://github.com/monacoinproject/Monacoin-exp/archive/0.10.2.2_Lyra2REv2-preview.zip)**
 
-win32版には下記で説明するテスト例のバッチファイルも入っています。
+win32フォルダには下記で説明するテスト例のバッチファイルも入っています。
+Mac版は0.10.2.2より動作環境がLion(10.7.5)以降となります。
 
 ##テストネット
 引数 -testnet を指定した場合、テストネットに接続します。  
@@ -51,3 +52,7 @@ MonacoinprojectではLyra2REv2のrpcマイニングは[こちら](https://github
 
 bitcoin api `getwork`が廃止になっているので、使用するマイナーによっては`getwork`を無効にするオプションを指定する必要があるかもしれません。
 
+##免責事項
+- https://github.com/monacoinproject/Monacoin-exp に掲載されているプログラムをダウンロード・実行した結果生じた損害について、一切責任を負いません。
+- あなたに適用される法令に照らして、https://github.com/monacoinproject/Monacoin-exp に掲載されているプログラムが合法であることを保証しません。
+- あなたに適用される法令に違反する行為に、https://github.com/monacoinproject/Monacoin-exp に掲載されているプログラムを使用することを禁じます。
