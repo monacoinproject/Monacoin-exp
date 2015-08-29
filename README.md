@@ -10,7 +10,7 @@
 
 **Download : [Monacoin-exp-0.10.2.2_Lyra2REv2-preview.zip](https://github.com/monacoinproject/Monacoin-exp/archive/0.10.2.2_Lyra2REv2-preview.zip)**
 
-win32フォルダには下記で説明するテスト例のバッチファイルも入っています。
+win32フォルダには下記で説明するテスト例のバッチファイルも入っています。  
 Mac版は0.10.2.2より動作環境がLion(10.7.5)以降となります。
 
 ##テストネット
