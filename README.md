@@ -29,7 +29,11 @@ Mac版は0.10.2.2より動作環境がLion(10.7.5)以降となります。
 `例）デバッグコンソールにて「setgenerate true 10」と入力すると10ブロック生成します。`
 
 リグレッションテストでは20Block目にKGW、40Block目にDigiShield、60Block目にLyra2REv2・DGWv3にフォークします。  
-Monacoinでは採掘後に120ブロック経過しないと採掘したコインの操作はできませんが、このモードでは自由にブロックが生成できるため短時間で送金などの確認をすることができます。  
+Monacoinでは採掘後に100ブロック経過しないと採掘したコインの操作はできませんが、このモードでは自由にブロックが生成できるため短時間で送金などの確認をすることができます。  
+
+##Lyra2REv2・DGWv3移行直後のdifficultyについて
+Lyra2REv2・DGWv3移行直後24blockはdifficultyは初期値（0.00024414）をとり続けますが意図した動作です。  
+25block目よりDGWv3による調整が入り、徐々に適正値へと変動します。
 
 ##テスト例
 port、rpcportが重複しないようにすれば１台のPCで複数クライアントを起動することができます。  
@@ -48,7 +52,7 @@ Monacoin_0.10.2.2-Lyra2REv2-preview.zip 内に0.8.7.1、0.10.2.2を１台のPC�
 MonacoinprojectではLyra2REv2のrpcマイニングは[こちら](https://github.com/tpruvot/cpuminer-multi)のcpuminer-multiを用い、Ubuntu上にて動作を確認しています。  
 0.8.7.1と異なり、ソロマイニングの際には自身のウォレットアドレスを指定する必要があります。
 
-`例）./cpuminer -a Lyra2REv2 -o localhost:29402 -O user:pass  --coinbase-addr=mqg8XsampleaddressXXXmonacoinNfZnD`
+`例）./cpuminer -a lyra2rev2 -o localhost:29402 -O user:pass  --coinbase-addr=mqg8XsampleaddressXXXmonacoinNfZnD`
 
 bitcoin api `getwork`が廃止になっているので、使用するマイナーによっては`getwork`を無効にするオプションを指定する必要があるかもしれません。
 
